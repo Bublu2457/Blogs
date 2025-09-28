@@ -4,9 +4,9 @@ import { connectDB } from "@/lib/db";
 
 export async function GET(
   request: Request,
-  context: { params: { slug: string } }
+  context: { params: Promise<{ slug: string }> }   // ✅ note the Promise
 ) {
-  const { slug } = context.params;       
+  const { slug } = await context.params;           // ✅ await the params
   await connectDB();
 
   const blog = await Blog.findOne({ slug });
