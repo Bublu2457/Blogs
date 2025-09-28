@@ -1,4 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Satoru foundation assignment
+-Blog platform is built using Next.js,tailwind css,MongoDB.
+-Deployed it in Vercel.
+
+
+## Description about project:
+-It  shows latest bolgs on home page with `tilte`,`description/tag`,`timestamp`.
+-It is  also provided with fearture to add blog in web app as a `admin`.
+-It has navigation on top like `Home` to return back.
+
+
+## Setup guidlines
+-clone the repository: ` git clone https://github.com/Bublu2457/Blogs.git cd repo`.
+-install dependencies: they are in package.json in root of the folder.
+  dependencies:  
+     "mongoose": "^8.18.2",
+     "next": "15.5.4",
+     "react": "19.1.0",
+     "react-dom": "19.1.0"
+     "@tailwindcss/postcss": "^4",
+     "@types/node": "^20",
+     "@types/react": "^19",
+     "@types/react-dom": "^19",
+     "tailwindcss": "^4",
+     "typescript": "^5".
+
+-To connect with your own database create `.env.development` and add database url to connect with local or remote database.
+
+-run the app: `npm run dev`.
+
+## usage of chatgpt
+ -used chatpt to take help in deploying it in vercel. 
+ -`To fix few errors that occur while destructing the parameters it was bit difficult`.
+ -`while configuring tailwind css with postcss `.
+ -`to solve issues with version in tailwind`.
+ 
+
+
+
+
+
+
+
 
 ## Getting Started
 
@@ -18,19 +61,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
