@@ -36,12 +36,11 @@ export default function AdminPage() {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-6
-                     bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400">
+                     bg-gradient-to-br from-white  to-black">
       {/* glass-card */}
       <div className="w-full max-w-2xl bg-white/80 backdrop-blur-xl shadow-2xl
                       rounded-3xl p-10 border border-white/30">
-        <h1 className="text-4xl font-extrabold text-center mb-8 text-transparent
-                       bg-clip-text bg-green from-purple-700 to-pink-600">
+        <h1 className="text-2xl font-extrabold text-center bg-green from-purple-700 to-pink-600">
           Admin — Create Post
         </h1>
 

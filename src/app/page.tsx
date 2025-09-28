@@ -42,10 +42,10 @@ export default function Home() {
   );
 
   return (
-    <div className="font-sans flex flex-col min-h-screen bg-green-300 p-8 sm:p-20">
+    <div className="font-sans flex flex-col min-h-screen bg-gray-100 p-8 sm:p-20">
       <section className="max-w-5xl mx-auto p-6">
       {/* Header */}
-       <div className="flex flex-col md:flex-row items-center justify-between mb-6 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg p-4 shadow-md">
+       <div className="flex flex-col md:flex-row items-center justify-between mb-6 bg-gradient-to-r from-yellow-500 to-teal-500 rounded-lg p-4 shadow-md">
     <h1 className="text-3xl font-bold text-white mb-2 md:mb-0">All Blog Posts</h1>
     <Link
       href="/admin"

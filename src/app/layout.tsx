@@ -32,7 +32,7 @@ export default function RootLayout({
   <div className="px-6 py-6">
     <Navigation />
   </div>
-  <main className="flex-1 max-w-auto mx-auto p-6 bg-green-500">
+  <main className="flex-1 max-w-auto mx-auto p-6 bg-gradient-to-r from-yellow-500 to-teal-500 ">
     {children}
   </main>
 </div>

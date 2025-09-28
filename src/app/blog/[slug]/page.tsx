@@ -10,10 +10,11 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
   if (!blog) return <h1>Blog not found</h1>;
 
   return (
-    <main className="p-6">
-      <h1 className="text-3xl font-bold">{blog.title}</h1>
+    <main className="p-6 bg-white">
+      <h1 className="text-3xl font-bold text-black">{blog.title}</h1>
       <p className="text-gray-600">{new Date(blog.createdAt).toDateString()}</p>
-      <article className="mt-6">{blog.content}</article>
+      <article className="mt-6 text-black">{blog.content}</article>
     </main>
+    
   );
 }
