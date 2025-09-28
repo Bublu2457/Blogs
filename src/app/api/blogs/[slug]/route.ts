@@ -1,10 +1,10 @@
-import { connectDB } from "../../../../lib/db";
-import Blog from "../../../../models/Blog";
 import { NextResponse } from "next/server";
+import Blog from "@/models/Blog";
+import { connectDB } from "@/lib/db";
 
 export async function GET(
   request: Request,
-  context: { { params }: { params: Promise<{ slug: string }> } }
+  context: { params: { slug: string } }
 ) {
   const { slug } = context.params;       
   await connectDB();
